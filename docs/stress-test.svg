@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<style>
+.bg{fill:#ffffff}.ink{fill:#1f2328}.mute{fill:#656d76}.grid{stroke:#d0d7de;stroke-width:1}
+.danger{fill:#cf222e;fill-opacity:.08}.dline{stroke:#cf222e;stroke-dasharray:4 4;stroke-opacity:.6}
+.hline{stroke:#656d76;stroke-dasharray:2 4}
+.bad{stroke:#cf222e}.warn{stroke:#bc4c00}.ok{stroke:#1a7f37}.ok2{stroke:#0969da}
+.fbad{fill:#cf222e}.fwarn{fill:#bc4c00}.fok{fill:#1a7f37}.fok2{fill:#0969da}
+path{fill:none;stroke-linejoin:round}
+@media (prefers-color-scheme: dark){.bg{fill:#0d1117}.ink{fill:#e6edf3}.mute{fill:#8d96a0}.grid{stroke:#30363d}
+.bad{stroke:#ff7b72}.warn{stroke:#ffa657}.ok{stroke:#3fb950}.ok2{stroke:#58a6ff}
+.fbad{fill:#ff7b72}.fwarn{fill:#ffa657}.fok{fill:#3fb950}.fok2{fill:#58a6ff}.danger{fill:#ff7b72;fill-opacity:.1}.dline{stroke:#ff7b72}}
+</style>
+<rect class="bg" width="880" height="420" rx="8"/>
+<text class="ink" x="56" y="24" font-size="15" font-weight="600">Hottest CPU core during the same GPU stress test</text>
+<text class="mute" x="56" y="40">Dell Latitude E6430 · i5-3340M + HD 4000 · glmark2, 8 scenes × 10 s</text>
+<rect class="danger" x="56" y="48" width="674" height="43.076923076923066"/>
+<line class="dline" x1="56" x2="730" y1="60.30769230769231" y2="60.30769230769231"/>
+<text class="mute" x="738" y="64.3076923076923">TjMax 105 °C</text><text class="mute" x="738" y="78.3076923076923" font-size="11">CPU self-throttle</text>
+<line class="hline" x1="56" x2="730" y1="140.3076923076923" y2="140.3076923076923"/>
+<text class="mute" x="738" y="144.3076923076923">92 °C</text><text class="mute" x="738" y="158.3076923076923" font-size="11">guard steps down</text>
+<line class="grid" x1="56" x2="730" y1="337.2307692307692" y2="337.2307692307692" stroke-opacity=".5"/><text class="mute" x="48" y="341.2307692307692" text-anchor="end">60°</text>
+<line class="grid" x1="56" x2="730" y1="275.69230769230774" y2="275.69230769230774" stroke-opacity=".5"/><text class="mute" x="48" y="279.69230769230774" text-anchor="end">70°</text>
+<line class="grid" x1="56" x2="730" y1="214.15384615384616" y2="214.15384615384616" stroke-opacity=".5"/><text class="mute" x="48" y="218.15384615384616" text-anchor="end">80°</text>
+<line class="grid" x1="56" x2="730" y1="152.6153846153846" y2="152.6153846153846" stroke-opacity=".5"/><text class="mute" x="48" y="156.6153846153846" text-anchor="end">90°</text>
+<line class="grid" x1="56" x2="730" y1="91.07692307692307" y2="91.07692307692307" stroke-opacity=".5"/><text class="mute" x="48" y="95.07692307692307" text-anchor="end">100°</text>
+<text class="mute" x="56.0" y="386" text-anchor="middle">0s</text>
+<text class="mute" x="136.23809523809524" y="386" text-anchor="middle">10s</text>
+<text class="mute" x="216.47619047619045" y="386" text-anchor="middle">20s</text>
+<text class="mute" x="296.7142857142857" y="386" text-anchor="middle">30s</text>
+<text class="mute" x="376.9523809523809" y="386" text-anchor="middle">40s</text>
+<text class="mute" x="457.1904761904762" y="386" text-anchor="middle">50s</text>
+<text class="mute" x="537.4285714285714" y="386" text-anchor="middle">60s</text>
+<text class="mute" x="617.6666666666667" y="386" text-anchor="middle">70s</text>
+<text class="mute" x="697.9047619047618" y="386" text-anchor="middle">80s</text>
+<text class="mute" x="393.0" y="408" text-anchor="middle">seconds since the test started</text>
+<path class="bad" d="M58,177 L65,177 L67,128 L73,128 L76,110 L91,110 L93,91 L100,91 L102,103 L108,103 L110,110 L117,110 L119,97 L135,97 L137,91 L152,91 L154,85 L161,85 L163,73 L170,73 L172,85 L179,85 L181,73 L188,73 L190,66 L196,66 L199,73 L205,73 L207,66 L245,66" stroke-width="2.5"/>
+<g class="bad" stroke-width="2.5"><line x1="239.9607142857143" y1="61.46153846153847" x2="249.9607142857143" y2="71.46153846153847"/><line x1="239.9607142857143" y1="71.46153846153847" x2="249.9607142857143" y2="61.46153846153847"/></g>
+<text class="fbad" x="253.9607142857143" y="70.46153846153847" font-weight="600">froze at 104 °C</text>
+<path class="warn" d="M57,251 L64,251 L66,196 L73,196 L75,190 L90,190 L92,177 L116,177 L118,171 L125,171 L127,165 L142,165 L145,171 L151,171 L153,153 L160,153 L162,146 L186,146 L189,140 L222,140 L224,122 L239,122 L241,116 L257,116 L259,103 L265,103 L267,116 L274,116 L276,103 L287,103" stroke-width="2.5"/>
+<g class="warn" stroke-width="2.5"><line x1="282.32642857142855" y1="98.38461538461539" x2="292.32642857142855" y2="108.38461538461539"/><line x1="282.32642857142855" y1="108.38461538461539" x2="292.32642857142855" y2="98.38461538461539"/></g>
+<text class="fwarn" x="296.32642857142855" y="119.38461538461539" font-weight="600">froze at 98 °C</text>
+<path class="ok2" d="M57,313 L62,313 L64,233 L70,233 L73,214 L79,214 L81,208 L88,208 L90,202 L105,202 L107,196 L121,196 L123,190 L138,190 L140,183 L156,183 L158,171 L164,171 L166,177 L188,177 L190,165 L193,153 L199,153 L201,165 L206,165 L208,171 L215,171 L217,159 L223,159 L226,146 L232,146 L234,140 L241,140 L243,202 L249,202 L252,196 L254,177 L260,177 L262,202 L269,202 L271,196 L277,196 L280,202 L282,202 L284,196 L286,196 L288,171 L295,171 L297,196 L299,190 L302,190 L304,159 L310,159 L312,171 L315,171 L317,208 L330,208 L332,202 L339,202 L341,208 L347,208 L350,183 L356,183 L358,165 L365,165 L367,140 L374,140 L377,202 L390,202 L392,190 L398,190 L400,177 L407,177 L409,183 L414,183 L416,177 L431,177 L434,171 L440,171 L442,177 L476,177 L478,146 L484,146 L486,140 L493,140 L495,177 L501,177 L504,190 L511,190 L513,177 L520,177 L522,190 L526,190 L529,183 L535,183 L537,196 L544,196 L546,190 L551,190 L553,183 L555,183 L557,146 L564,146 L566,165 L572,165 L574,153 L581,153 L584,190 L599,190 L601,196 L603,196 L605,190 L612,190 L614,183 L619,183 L622,190 L628,190 L630,171 L637,171 L639,103 L643,103 L645,202 L652,202 L654,196 L661,196 L663,202 L667,202 L670,208 L672,208 L674,202 L676,202 L678,183 L685,183 L687,122 L693,122 L696,208 L702,208 L704,202 L711,202 L713,208 L718,208" stroke-width="1.6"/>
+<path class="ok" d="M58,251 L60,251 L62,177 L64,177 L66,159 L73,159 L75,165 L81,165 L84,146 L90,146 L92,159 L108,159 L110,153 L112,153 L114,134 L120,134 L123,177 L125,177 L127,183 L129,183 L131,177 L138,177 L140,202 L142,202 L145,190 L147,190 L149,177 L151,177 L154,159 L169,159 L171,183 L173,183 L176,190 L178,190 L180,177 L182,177 L185,171 L191,171 L194,140 L200,140 L202,202 L213,202 L215,208 L218,208 L220,190 L222,190 L224,183 L240,183 L242,196 L248,196 L250,183 L253,183 L255,153 L261,153 L263,177 L270,177 L272,140 L279,140 L281,183 L292,183 L294,196 L301,196 L303,165 L309,165 L312,196 L314,196 L316,208 L318,208 L320,196 L327,196 L329,208 L331,208 L333,196 L340,196 L342,208 L344,208 L346,214 L348,214 L351,208 L353,208 L355,190 L362,190 L364,146 L371,146 L373,183 L384,183 L386,171 L388,171 L391,153 L397,153 L399,165 L406,165 L408,153 L415,153 L417,165 L423,165 L425,159 L441,159 L444,146 L450,146 L452,159 L459,159 L461,153 L468,153 L470,140 L476,140 L478,146 L481,146 L483,177 L485,177 L487,183 L494,183 L496,190 L503,190 L505,159 L512,159 L514,177 L529,177 L531,190 L533,183 L549,183 L551,171 L564,171 L566,183 L568,177 L575,177 L577,183 L581,183 L584,177 L599,177 L601,171 L608,171 L610,183 L616,183 L619,177 L634,177 L636,165 L638,134 L645,134 L647,177 L653,177 L656,196 L660,196 L662,177 L669,177 L671,190 L673,196 L680,196 L682,183 L688,183 L691,202 L706,202 L708,177 L714,177 L717,202 L719,202" stroke-width="1.6"/>
+<line class="bad" x1="744" x2="764" y1="223" y2="223" stroke-width="3"/>
+<text class="ink" x="770" y="227">No guard</text>
+<text class="mute" x="770" y="241">froze</text>
+<line class="warn" x1="744" x2="764" y1="261" y2="261" stroke-width="3"/>
+<text class="ink" x="770" y="265">Intel thermald</text>
+<text class="mute" x="770" y="279">froze</text>
+<line class="ok2" x1="744" x2="764" y1="299" y2="299" stroke-width="3"/>
+<text class="ink" x="770" y="303">thermal-guard</text>
+<text class="mute" x="770" y="317">default</text>
+<text class="mute" x="770" y="331">survived</text>
+<line class="ok" x1="744" x2="764" y1="347" y2="347" stroke-width="3"/>
+<text class="ink" x="770" y="351">thermal-guard</text>
+<text class="mute" x="770" y="365">--turbo-control</text>
+<text class="mute" x="770" y="379">survived</text>
+</svg>

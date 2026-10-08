@@ -22,7 +22,8 @@ class Sink:
         self.f = open(os.path.join(OUT, name), "a", buffering=1)
 
     def write(self, line):
-        self.f.write(f"{time.strftime('%H:%M:%S', time.gmtime())}.{int(time.time()*1000)%1000:03d} {line.rstrip()}\n")
+        now = time.time()  # one clock read, so the seconds and milliseconds always agree
+        self.f.write(f"{time.strftime('%H:%M:%S', time.gmtime(now))}.{int(now*1000)%1000:03d} {line.rstrip()}\n")
         self.f.flush()
         os.fsync(self.f.fileno())
 
