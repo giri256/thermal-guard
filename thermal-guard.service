@@ -1,0 +1,11 @@
+[Unit]
+Description=thermal-guard: software thermal throttle (i915 GPU clock / CPU turbo by coretemp)
+After=systemd-modules-load.service
+
+[Service]
+ExecStart=/usr/bin/python3 -I /usr/local/lib/thermal-guard/thermal-guard.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
